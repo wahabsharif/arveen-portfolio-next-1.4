@@ -11,7 +11,7 @@ const Logo = () => {
       <MotionLink
         href={"/"}
         className="w-16 h-16 bg-dark text-light flex items-center justify-center rounded-full text-2xl font-bold"
-        whileHover={{ scale: 1.5 }}>
+        whileHover={{ scale: 1.1 }}>
         AJ
       </MotionLink>
     </div>
