@@ -17,12 +17,6 @@ const Footer = () => {
             MazeByte
           </Link>
         </div>
-        <Link
-          href="https://mazebyte.com"
-          target={"_blank"}
-          className="underline underline-offset-auto hover:text-green-950">
-          Say Hello
-        </Link>
       </Layout>
     </footer>
   );
