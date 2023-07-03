@@ -16,6 +16,9 @@ module.exports = {
         primary: "#F5F0ED", // 240,86,199
         primaryDark: "#D4C6BD", // 80,230,217
       },
+      animation: {
+        "spin-slow": "spin 9s linear infinite",
+      },
     },
   },
   plugins: [],

@@ -6,9 +6,23 @@ const Footer = () => {
   return (
     <footer className="w-full border-t-2 border-solid border-dark font-medium text-lg">
       <Layout className="py-8 flex items-center justify-between">
-        <span>Rights</span>
-        <Link href="/">MazeByte</Link>
-        <Link href="/">Say Hello</Link>
+        <span>{new Date().getFullYear()} &copy; All Rights Reserved</span>
+        <div className="flex items-center">
+          Build With <span className="text-red-600 text-2xl px-1">&#9825;</span>
+          by&nbsp;
+          <Link
+            href="https://mazebyte.com"
+            target={"_blank"}
+            className="underline underline-offset-auto hover:text-green-950">
+            MazeByte
+          </Link>
+        </div>
+        <Link
+          href="https://mazebyte.com"
+          target={"_blank"}
+          className="underline underline-offset-auto hover:text-green-950">
+          Say Hello
+        </Link>
       </Layout>
     </footer>
   );
