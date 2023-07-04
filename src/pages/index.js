@@ -31,10 +31,13 @@ export default function Home() {
                 className="!text-6xl !text-left"
               />
               <p className="my-4 text-base font-medium">
-                As a skilled full-stack developer, I am dedicated to turning
-                ideas into innovative web applications. Explore my latest
-                projects and articles, showcasing my expertise in React.js and
-                web development.
+                As a skilled Graphic Designer, I am dedicated to turning ideas
+                into innovative Reality. I specialize in captivating designs
+                that leave a lasting impression. From logos to web graphics, my
+                portfolio showcases visually stunning creations that engage and
+                drive results. Let's take your brand's visual identity to the
+                next level—explore my unique design style and process. Connect
+                with me to make magic happen!
               </p>
               <div className="flex items-center self-start mt-2">
                 <Link
