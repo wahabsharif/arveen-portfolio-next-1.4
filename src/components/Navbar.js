@@ -36,6 +36,7 @@ export const Navbar = () => {
         <CustomLink href={"/"} title={"Projects"} className="mx-4" />
         <CustomLink href={"/"} title={"Arts"} className="ml-4" />
       </nav>
+      {/* Social Icons */}
       <nav className="flex items-center justify-center flex-wrap">
         <motion.a
           href={"/"}

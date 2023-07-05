@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Layout from "@/components/Layout";
 import Image from "next/image";
-import profilepic from "../../public/images/profile/3d-woman-character-work-computer.png";
+import profilepic from "../../public/images/profile/home-girl-pic.png";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";

@@ -7,7 +7,11 @@ const HireMe = () => {
   return (
     <div className="fixed left-4 bottom-4 flex items-center justify-center overflow-hidden">
       <div className="w-40 h-auto flex items-center justify-center relative">
-        <Image src={CircularTextPic} className="fill-dark animate-spin-slow" />
+        <Image
+          src={CircularTextPic}
+          className="fill-dark animate-spin-slow"
+          alt="Hire Me"
+        />
         <Link
           href="https://www.fiverr.com/arveenjunejo"
           target="_blank"
